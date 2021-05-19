@@ -1,4 +1,7 @@
 @media only screen and (max-width: 767px) {
+  * {
+    overflow-y: hidden;
+  }
   h1 {
     font-size: 25px;
   }
@@ -13,12 +16,14 @@
     padding: 5rem;
   }
   .name {
-    font-size: 20px;
+    font-size: 16px;
+    top: 2rem;
   }
 
   .current {
-    width: 80%;
+    width: 100%;
     padding: 1rem;
+    margin-top: 20rem;
   }
 
   .current-label {
@@ -36,16 +41,16 @@
   }
 
   .btn--new {
-    top: 8rem;
+    top: 1rem;
   }
   .btn--roll {
-    top: 29rem;
+    top: 26rem;
   }
   .btn--hold {
-    top: 35rem;
+    top: 33rem;
   }
   .dice {
-    top: 17.5rem;
+    top: 14.5rem;
     height: 7rem;
   }
 }
