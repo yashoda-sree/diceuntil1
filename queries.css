@@ -1,0 +1,51 @@
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 25px;
+  }
+  main {
+    position: relative;
+    width: 100rem;
+    height: 50rem;
+    display: flex;
+  }
+  .player {
+    flex: 50%;
+    padding: 5rem;
+  }
+  .name {
+    font-size: 20px;
+  }
+
+  .current {
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .current-label {
+    font-size: 1.5rem;
+  }
+
+  /* ABSOLUTE POSITIONED ELEMENTS */
+  .btn {
+    padding: 0.4rem 1.2rem;
+    border-radius: 50rem;
+  }
+
+  .btn::first-letter {
+    margin-right: 0.5rem;
+  }
+
+  .btn--new {
+    top: 8rem;
+  }
+  .btn--roll {
+    top: 29rem;
+  }
+  .btn--hold {
+    top: 35rem;
+  }
+  .dice {
+    top: 17.5rem;
+    height: 7rem;
+  }
+}
