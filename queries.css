@@ -3,7 +3,7 @@
     overflow-y: hidden;
   }
   h1 {
-    font-size: 25px;
+    font-size: 16px;
   }
   main {
     position: relative;
@@ -16,9 +16,15 @@
     padding: 5rem;
   }
   .name {
-    font-size: 16px;
+    font-size: 12px;
     top: 2rem;
   }
+  .score {
+  font-size: 6rem;
+  font-weight: 300;
+  color: #c7365f;
+  margin-bottom: auto;
+}
 
   .current {
     width: 100%;
@@ -41,16 +47,16 @@
   }
 
   .btn--new {
-    top: 1rem;
+    top: 1.5rem;
   }
   .btn--roll {
-    top: 26rem;
+    top: 24rem;
   }
   .btn--hold {
-    top: 33rem;
+    top: 30rem;
   }
   .dice {
-    top: 14.5rem;
+    top: 12.5rem;
     height: 7rem;
   }
 }
